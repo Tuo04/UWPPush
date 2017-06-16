@@ -44,6 +44,32 @@ namespace MobileCenterUWPTest
         {
             Frame rootFrame = Window.Current.Content as Frame;
 
+            Push.Enabled=true;
+
+            // This should come before MobileCenter.Start() is called
+            Push.PushNotificationReceived += (sender, m) => {
+
+                // Add the notification message and title to the message
+                var summary = $"Push notification received:" +
+                                    $"\n\tNotification title: {m.Title}" +
+                        $"\n\tMessage: {m.Message}";
+
+                // If there is custom data associated with the notification,
+                // print the entries
+                if (m.CustomData != null)
+                {
+                    summary += "\n\tCustom data:\n";
+                    foreach (var key in m.CustomData.Keys)
+                    {
+                        summary += $"\t\t{key} : {m.CustomData[key]}\n";
+                    }
+                }
+
+                // Send the notification summary to debug output
+                System.Diagnostics.Debug.WriteLine(summary);
+            };
+
+
             // Do not repeat app initialization when the Window already has content,
             // just ensure that the window is active
             if (rootFrame == null)
@@ -79,6 +105,9 @@ namespace MobileCenterUWPTest
             
             MobileCenter.Start("faf7b1ac-bc2f-4519-9e71-e3a58fe70572", typeof(Analytics), typeof(Push));
             Push.CheckLaunchedFromNotification(e);
+
+
+
         }
 
         /// <summary>
