@@ -103,7 +103,7 @@ namespace MobileCenterUWPTest
 
             // This should come before MobileCenter.Start() is called
             
-            MobileCenter.Start("faf7b1ac-bc2f-4519-9e71-e3a58fe70572", typeof(Analytics), typeof(Push));
+            MobileCenter.Start("b6c0d49f-1f1d-4e60-af77-3b65b107b5f6", typeof(Analytics), typeof(Push));
             Push.CheckLaunchedFromNotification(e);
 
 
