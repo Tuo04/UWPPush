@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="63967vsclient.MobileCenterTest" version="1.0" primary="true">
+		<Qualifiers>
+			<AlternateForm>UNPLATED</AlternateForm>
+			<Language>EN</Language>
+			<Scale>200</Scale>
+			<TargetSize>24</TargetSize>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://63967vsclient.MobileCenterTest/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="e_sqlite3.dll" uri="ms-resource://63967vsclient.MobileCenterTest/Files/e_sqlite3.dll">
+				<Candidate type="Path">
+					<Value>e_sqlite3.dll</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://63967vsclient.MobileCenterTest/Files/MainPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MobileCenterUWPTest.xr.xml" uri="ms-resource://63967vsclient.MobileCenterTest/Files/MobileCenterUWPTest.xr.xml">
+				<Candidate type="Path">
+					<Value>MobileCenterUWPTest.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="LockScreenLogo.png" uri="ms-resource://63967vsclient.MobileCenterTest/Files/Assets/LockScreenLogo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\LockScreenLogo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://63967vsclient.MobileCenterTest/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square150x150Logo.png" uri="ms-resource://63967vsclient.MobileCenterTest/Files/Assets/Square150x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square150x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square44x44Logo.png" uri="ms-resource://63967vsclient.MobileCenterTest/Files/Assets/Square44x44Logo.png">
+					<Candidate qualifiers="TargetSize-24, AlternateForm-UNPLATED" type="Path">
+						<Value>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Square44x44Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://63967vsclient.MobileCenterTest/Files/Assets/StoreLogo.png">
+					<Candidate type="Path">
+						<Value>Assets\StoreLogo.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Wide310x150Logo.png" uri="ms-resource://63967vsclient.MobileCenterTest/Files/Assets/Wide310x150Logo.png">
+					<Candidate qualifiers="Scale-200" isDefault="true" type="Path">
+						<Value>Assets\Wide310x150Logo.scale-200.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Properties">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://63967vsclient.MobileCenterTest/Files/Properties/Default.rd.xml">
+					<Candidate type="Path">
+						<Value>Properties\Default.rd.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinMetadata">
+				<NamedResource name="Windows.winmd" uri="ms-resource://63967vsclient.MobileCenterTest/Files/WinMetadata/Windows.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Windows.winmd</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Microsoft.Rest.ClientRuntime.Properties.Resources">
+			<NamedResource name="ArgumentCannotBeGreaterThanBaseline" uri="ms-resource://63967vsclient.MobileCenterTest/Microsoft.Rest.ClientRuntime.Properties.Resources/ArgumentCannotBeGreaterThanBaseline">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The specified argument {0} cannot be greater than its ceiling value of {1}.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ArgumentCannotBeNegative" uri="ms-resource://63967vsclient.MobileCenterTest/Microsoft.Rest.ClientRuntime.Properties.Resources/ArgumentCannotBeNegative">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The specified argument {0} cannot be initialized with a negative value.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DefaultHttpOperationExceptionMessage" uri="ms-resource://63967vsclient.MobileCenterTest/Microsoft.Rest.ClientRuntime.Properties.Resources/DefaultHttpOperationExceptionMessage">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Received unexpected Http response status code {0}</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DefaultRetryStrategyMappingNotFound" uri="ms-resource://63967vsclient.MobileCenterTest/Microsoft.Rest.ClientRuntime.Properties.Resources/DefaultRetryStrategyMappingNotFound">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Default retry strategy for technology {0}, named '{1}', is not defined.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="DefaultRetryStrategyNotFound" uri="ms-resource://63967vsclient.MobileCenterTest/Microsoft.Rest.ClientRuntime.Properties.Resources/DefaultRetryStrategyNotFound">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Default retry strategy for technology {0} was not not defined, and there is no overall default strategy.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ExceptionRetryHandlerMissing" uri="ms-resource://63967vsclient.MobileCenterTest/Microsoft.Rest.ClientRuntime.Properties.Resources/ExceptionRetryHandlerMissing">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Retry handler is not present in the HttpClient handler stack.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ExceptionRetryManagerAlreadySet" uri="ms-resource://63967vsclient.MobileCenterTest/Microsoft.Rest.ClientRuntime.Properties.Resources/ExceptionRetryManagerAlreadySet">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The RetryManager is already set.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ExceptionRetryManagerNotSet" uri="ms-resource://63967vsclient.MobileCenterTest/Microsoft.Rest.ClientRuntime.Properties.Resources/ExceptionRetryManagerNotSet">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The default RetryManager has not been set. Set it by invoking the RetryManager.SetDefault static method, or if you are using declarative configuration, you can invoke the RetryPolicyFactory.CreateDefault() method to automatically create the retry manager from the configuration file.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ITransientErrorDetectionStrategyNotImplemented" uri="ms-resource://63967vsclient.MobileCenterTest/Microsoft.Rest.ClientRuntime.Properties.Resources/ITransientErrorDetectionStrategyNotImplemented">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The error detection strategy type must implement the ITransientErrorDetectionStrategy interface.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ResponseStatusCodeError" uri="ms-resource://63967vsclient.MobileCenterTest/Microsoft.Rest.ClientRuntime.Properties.Resources/ResponseStatusCodeError">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>Response status code indicates server error: {0} ({1}).</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="RetryStrategyNotFound" uri="ms-resource://63967vsclient.MobileCenterTest/Microsoft.Rest.ClientRuntime.Properties.Resources/RetryStrategyNotFound">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The retry strategy with name '{0}' cannot be found.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="StringCannotBeEmpty" uri="ms-resource://63967vsclient.MobileCenterTest/Microsoft.Rest.ClientRuntime.Properties.Resources/StringCannotBeEmpty">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The specified string argument {0} must not be empty.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TaskCannotBeNull" uri="ms-resource://63967vsclient.MobileCenterTest/Microsoft.Rest.ClientRuntime.Properties.Resources/TaskCannotBeNull">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The specified argument '{0}' cannot return a null task when invoked.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TaskMustBeScheduled" uri="ms-resource://63967vsclient.MobileCenterTest/Microsoft.Rest.ClientRuntime.Properties.Resources/TaskMustBeScheduled">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The specified argument '{0}' must return a scheduled task (also known as "hot" task) when invoked.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="TokenProviderCannotBeNull" uri="ms-resource://63967vsclient.MobileCenterTest/Microsoft.Rest.ClientRuntime.Properties.Resources/TokenProviderCannotBeNull">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>You must specify a token provider or raw access token before using token credentials.</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ValidationCannotBeNull" uri="ms-resource://63967vsclient.MobileCenterTest/Microsoft.Rest.ClientRuntime.Properties.Resources/ValidationCannotBeNull">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>cannot be null</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ValidationEnum" uri="ms-resource://63967vsclient.MobileCenterTest/Microsoft.Rest.ClientRuntime.Properties.Resources/ValidationEnum">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>cannot have value other than</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ValidationExclusiveMaximum" uri="ms-resource://63967vsclient.MobileCenterTest/Microsoft.Rest.ClientRuntime.Properties.Resources/ValidationExclusiveMaximum">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>is equal or exceeds maximum value of</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ValidationExclusiveMinimum" uri="ms-resource://63967vsclient.MobileCenterTest/Microsoft.Rest.ClientRuntime.Properties.Resources/ValidationExclusiveMinimum">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>is less than or equal minimum value of</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ValidationMaximum" uri="ms-resource://63967vsclient.MobileCenterTest/Microsoft.Rest.ClientRuntime.Properties.Resources/ValidationMaximum">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>exceeds maximum value of</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ValidationMaximumItems" uri="ms-resource://63967vsclient.MobileCenterTest/Microsoft.Rest.ClientRuntime.Properties.Resources/ValidationMaximumItems">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>exceeds maximum item count of</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ValidationMaximumLength" uri="ms-resource://63967vsclient.MobileCenterTest/Microsoft.Rest.ClientRuntime.Properties.Resources/ValidationMaximumLength">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>exceeds maximum length of</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ValidationMinimum" uri="ms-resource://63967vsclient.MobileCenterTest/Microsoft.Rest.ClientRuntime.Properties.Resources/ValidationMinimum">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>is less than minimum value of</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ValidationMinimumItems" uri="ms-resource://63967vsclient.MobileCenterTest/Microsoft.Rest.ClientRuntime.Properties.Resources/ValidationMinimumItems">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>contains less items than</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ValidationMinimumLength" uri="ms-resource://63967vsclient.MobileCenterTest/Microsoft.Rest.ClientRuntime.Properties.Resources/ValidationMinimumLength">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>is less than minimum length of</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ValidationMultipleOf" uri="ms-resource://63967vsclient.MobileCenterTest/Microsoft.Rest.ClientRuntime.Properties.Resources/ValidationMultipleOf">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>has to be multiple of</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ValidationPattern" uri="ms-resource://63967vsclient.MobileCenterTest/Microsoft.Rest.ClientRuntime.Properties.Resources/ValidationPattern">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>does not match expected pattern</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ValidationUniqueItems" uri="ms-resource://63967vsclient.MobileCenterTest/Microsoft.Rest.ClientRuntime.Properties.Resources/ValidationUniqueItems">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>collection contains duplicate items</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="WebRequestHandlerNotFound" uri="ms-resource://63967vsclient.MobileCenterTest/Microsoft.Rest.ClientRuntime.Properties.Resources/WebRequestHandlerNotFound">
+				<Candidate qualifiers="Language-EN" isDefault="true" type="String">
+					<Value>The service client '{0}' did not contain an implementation of '{1}'.</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

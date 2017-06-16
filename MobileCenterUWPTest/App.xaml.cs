@@ -69,6 +69,8 @@ namespace MobileCenterUWPTest
                 System.Diagnostics.Debug.WriteLine(summary);
             };
 
+            MobileCenter.Start("b6c0d49f-1f1d-4e60-af77-3b65b107b5f6", typeof(Analytics), typeof(Push));
+            Push.CheckLaunchedFromNotification(e);
 
             // Do not repeat app initialization when the Window already has content,
             // just ensure that the window is active
@@ -100,14 +102,7 @@ namespace MobileCenterUWPTest
                 // Ensure the current window is active
                 Window.Current.Activate();
             }
-
-            // This should come before MobileCenter.Start() is called
             
-            MobileCenter.Start("b6c0d49f-1f1d-4e60-af77-3b65b107b5f6", typeof(Analytics), typeof(Push));
-            Push.CheckLaunchedFromNotification(e);
-
-
-
         }
 
         /// <summary>

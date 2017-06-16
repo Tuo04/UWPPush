@@ -19,25 +19,25 @@
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>D:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
     <LayoutDir>D:\Users\v-tuchen\UWPTest\UWPPush\MobileCenterUWPTest\bin\x64\Debug\AppX</LayoutDir>
-    <RegisteredManifestChecksum>223A76B373E781C79D093E98E2030B2A6B36198DAE7579AD6FD7D1C96D48378C</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>63967vsclient.MobileCenterTest_1.1.0.0_x64__pekm0tavj4jwp</RegisteredPackageMoniker>
+    <RegisteredManifestChecksum>63BE851D2DED634FA261EB03899F92FF6C6C66AADD9D9B24DC6162CABE5E24BC</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>63967vsclient.MobileCenterTest_1.1.2.0_x64__pekm0tavj4jwp</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>63967vsclient.MobileCenterTest_pekm0tavj4jwp!App</RegisteredUserModeAppID>
     <RegisteredPackageID>63967vsclient.MobileCenterTest</RegisteredPackageID>
     <RegisteredPackagePublisher>CN=6B0E04BB-E44B-43CE-89DF-DBA5BC33E3A2</RegisteredPackagePublisher>
-    <RegisteredVersion>1.1.0.0</RegisteredVersion>
+    <RegisteredVersion>1.1.2.0</RegisteredVersion>
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="D:\Users\v-tuchen\UWPTest\UWPPush\MobileCenterUWPTest\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-16T03:17:26.411</Modified>
+      <Modified>2017-06-16T09:21:19.892</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Users\v-tuchen\UWPTest\UWPPush\MobileCenterUWPTest\bin\x64\Debug\MobileCenterUWPTest.exe">
       <PackagePath>entrypoint\MobileCenterUWPTest.exe</PackagePath>
-      <Modified>2017-06-16T03:17:24.902</Modified>
+      <Modified>2017-06-16T09:21:18.696</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\v-tuchen\.nuget\packages\Microsoft.Azure.Mobile\0.12.0\lib\uap10.0\Microsoft.Azure.Mobile.dll">
       <PackagePath>Microsoft.Azure.Mobile.dll</PackagePath>
@@ -596,11 +596,11 @@
     <AppxPackagedFile Include="D:\Users\v-tuchen\UWPTest\UWPPush\MobileCenterUWPTest\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2017-06-16T03:17:26.017</Modified>
+      <Modified>2017-06-16T09:21:19.626</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Users\v-tuchen\UWPTest\UWPPush\MobileCenterUWPTest\bin\x64\Debug\Core\MobileCenterUWPTest.exe">
       <PackagePath>MobileCenterUWPTest.exe</PackagePath>
-      <Modified>2017-06-16T03:17:26.404</Modified>
+      <Modified>2017-06-16T09:21:19.887</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
