@@ -1,1 +1,0 @@
-D:\Users\v-tuchen\UWPTest\UWPPush\MobileCenterUWPTest\MobileCenterUWPTest.csproj;x86

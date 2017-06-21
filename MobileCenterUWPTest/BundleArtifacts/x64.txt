@@ -1,2 +1,0 @@
-MainPackage=D:\Users\v-tuchen\UWPTest\UWPPush\MobileCenterUWPTest\bin\x64\Release\MobileCenterUWPTest_1.1.1.0_x64.appx
-SymbolPackage=D:\Users\v-tuchen\UWPTest\UWPPush\MobileCenterUWPTest\AppPackages\MobileCenterUWPTest_1.1.1.0_Test\MobileCenterUWPTest_1.1.1.0_x64.appxsym
