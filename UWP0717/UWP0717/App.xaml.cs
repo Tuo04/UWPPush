@@ -75,6 +75,33 @@ namespace UWP0717
                 Window.Current.Activate();
             }
 
+            MobileCenter.SetCountryCode("us");
+
+            Analytics.TrackEvent("Video clicked");
+
+            // This should come before MobileCenter.Start() is called
+            Push.PushNotificationReceived += (sender, m) => {
+
+                // Add the notification message and title to the message
+                var summary = $"Push notification received:" +
+                                    $"\n\tNotification title: {m.Title}" +
+                                    $"\n\tMessage: {m.Message}";
+
+                // If there is custom data associated with the notification,
+                // print the entries
+                if (m.CustomData != null)
+                {
+                    summary += "\n\tCustom data:\n";
+                    foreach (var key in m.CustomData.Keys)
+                    {
+                        summary += $"\t\t{key} : {m.CustomData[key]}\n";
+                    }
+                }
+
+                // Send the notification summary to debug output
+                System.Diagnostics.Debug.WriteLine(summary);
+            };
+
             MobileCenter.Start("5b2fa146-60b6-429d-8f9d-3c5688605a12", typeof(Analytics), typeof(Push));
 
         }

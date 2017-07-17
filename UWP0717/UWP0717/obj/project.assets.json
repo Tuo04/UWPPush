@@ -26101,7 +26101,7 @@
       },
       "Microsoft.NETCore.UniversalWindowsPlatform": {
         "target": "Package",
-        "version": "[5.3.3, )"
+        "version": "5.3.3"
       }
     },
     "frameworks": {
@@ -26118,6 +26118,10 @@
           "Microsoft.Azure.Mobile.Push": {
             "target": "Package",
             "version": "0.14.0"
+          },
+          "Microsoft.NETCore.UniversalWindowsPlatform": {
+            "target": "Package",
+            "version": "5.3.3"
           }
         }
       }
