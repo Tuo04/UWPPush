@@ -1,1 +1,0 @@
-d:\users\v-tuchen\Source\Repos\UWPPush\UWPPush\UWPPush.csproj;x86
